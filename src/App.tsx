@@ -1,10 +1,12 @@
 import React from 'react';
 import DemoView from './modules/demo';
-import './App.css';
+// import './App.css';
 
 function App() {
   return (
-    <DemoView />
+    <div className='App'>
+      <DemoView />
+    </div>
   );
 }
 
